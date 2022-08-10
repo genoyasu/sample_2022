@@ -1,0 +1,123 @@
+/* headerのスタイルシート */
+#header {
+    display: flex;
+    padding: 110px 270px;
+    justify-content: space-between;
+    align-items: center
+}
+
+.header-list {
+    display: flex;
+    font-size: 14px;
+}
+
+.header-list li {
+    margin-right: 30px;
+}
+
+.header-list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.icon {
+    width: 20px;
+}
+
+/* container */
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+/* main-visualのスタイルシート */
+.main-visual img {
+    height: 450px;
+}
+
+/* aboutのスタイルシート */
+#about {
+    margin: 80px 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 50px;
+}
+
+.about-profile {
+    font-size: 14px;
+}
+
+.about-name {
+    margin-bottom: 30px;
+}
+
+.about-adress {
+    margin-bottom: 30px;
+}
+
+.about-text {
+    /* margin-bottom: 30px; */
+}
+
+/* worksのスタイルシート */
+#works {
+    margin-bottom: 150px;
+}
+
+.works-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.works-item {
+    margin-right: 30px;
+}
+
+.works-item img {
+    width: 250px;
+}
+
+/* newsのスタイルシート */
+#news {
+    font-size: 14px;
+}
+
+.news-lists {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news-lists dt {
+    width: 20%;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.news-lists dt:first-child {
+    border-top: 1px solid #ccc;
+}
+
+.border-top {
+    border-top: 1px solid #ccc;
+}
+
+.news-lists dd {
+    width: 80%;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Contactのスタイルシート */
+#contact {
+    margin: 100px 0 50px;
+}
+
+.btn {
+    padding: 15px 100px;
+    color: white;
+    background: black;
+    text-align: center;
+}
